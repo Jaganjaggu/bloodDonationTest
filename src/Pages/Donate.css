@@ -1,0 +1,43 @@
+.donate-container {
+    background-color: rgba(245, 245, 220, 0.438);
+    height: 1000px;
+}
+
+.donate-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 20px 0px; */
+}
+
+.donate-header input {
+    border-radius: 5px;
+    width: 70%;
+    padding: 3px 25px;
+    background-color: white;
+}
+
+.donate-header i {
+    color: black;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.menu-icon {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.hospital-list {
+    padding: 30px;
+    gap: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    /* padding: 5px 10px; */
+    /* width: 50%; */
+    /* border-radius: 20px; */
+    /* margin-right: 5px; */
+    /* border: 1px solid #123122; */
+    margin-top: 20px;
+}

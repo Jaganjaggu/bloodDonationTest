@@ -1,0 +1,87 @@
+.Hospital-Dashboard {
+    margin: 0px;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.mid-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+
+}
+.dashboard-icon{
+    color: white;
+    font-size: 20px;
+}
+
+.midsection1 {
+    background-color: rgb(65, 37, 121);
+    border-radius: 10px;
+    padding: 20px;
+
+}
+.count{
+    background-color: white;
+    border-radius: 8px;
+    color: black;
+    font-weight:30px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-weight: bold;
+}
+
+.arrow-left-down {
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    background-color: rgb(30, 229, 37);
+    text-align: center;
+
+}
+
+.midsection1 h1 {
+    color: white;
+}
+
+.midsection1 p {
+    color: white;
+
+}
+
+.midsection2 {
+    background-color: rgb(30, 229, 37);
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.arrow-right-up {
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    background-color: white;
+    text-align: center;
+
+}
+
+.midsection2 h1 {
+    color: white;
+}
+
+.midsection2 p {
+    color: white;
+
+}
+
+.h1-icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

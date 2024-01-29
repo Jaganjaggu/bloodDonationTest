@@ -1,0 +1,50 @@
+.footer-sections{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer-parts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-icons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.footer-images{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-images div{
+    width: 150px;
+}
+
+ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+.get-us-input{
+    background:none;
+    border: none;
+    outline: none;
+    background-color: white;
+    padding: 5px 10px;
+}
+
+.get-us-button{
+    border: none;
+    padding: 5px 10px;
+    width: 100%;
+    margin-top: 5px;
+    color: white;
+    background-color: orange;
+}
+
+li{
+    list-style: none;
+}

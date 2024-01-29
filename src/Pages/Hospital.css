@@ -1,0 +1,89 @@
+.hospital-container {
+    background: url(../Assets/hospital-landing.jpg)no-repeat center center;
+    background-size: cover;
+}
+
+.hospital-content-section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 30px;
+}
+
+.hospital-content-section>h2 {
+    margin-bottom: 50px;
+}
+
+.hospital-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.hospital-image-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hospital-image-section img {
+    width: 100%;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.hospital-image-section img:hover {
+    scale: 1.05;
+}
+
+.hospital-image-section div {
+    padding: 0 10%;
+}
+
+.hospital-content-section button {
+    padding: 10px 20px;
+    margin-top: 30px;
+    border: 1px solid #749BC2;
+    transition: 0.3s;
+    border-radius: 5px;
+    background-color: #749BC2;
+    color: white;
+
+
+}
+
+.hospital-content-section button:hover {
+    background: none;
+    color: black;
+}
+
+.hospital-pages-section {
+    text-align: center;
+    padding-top: 50px;
+    background-color: white;
+    padding-bottom: 50px;
+}
+.hospital-pages-section h1{
+    color: black;
+    margin-bottom: 30px;
+}
+
+.hospital-pages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.hospital-pages div {
+
+    width: 160px;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 19px 7px rgba(0, 0, 0, 0.29);
+    -moz-box-shadow: 0px 0px 19px 7px rgba(0, 0, 0, 0.29);
+    box-shadow:inset 0px 0px 19px 7px rgba(39, 38, 38, 0.29);
+    background-color: #749BC2;
+    color: white;
+}

@@ -1,0 +1,43 @@
+.content-section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.content-section>h2 {
+    margin-bottom: 50px;
+}
+.landing-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.image-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-section img {
+    width: 100%;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.image-section img:hover{
+scale: 1.05;
+}
+
+.image-section div {
+    padding: 0 10%;
+}
+.content-section button {
+    padding: 10px 20px;
+    margin-top: 30px;
+    background:none;
+    color: white;
+    border: 1px solid white;
+    transition: 0.3s;
+    border-radius: 5px;
+    
+}
+.content-section button:hover
+{
+background-color: white;
+color: black;
+}
